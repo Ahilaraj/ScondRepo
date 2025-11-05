@@ -7,7 +7,8 @@ public class ChildInterface implements Parentinterface {
 		ChildInterface cf = new ChildInterface(); 
 		cf.display();
 		cf.defaultDisplay();
-		Parentinterface.statDisplay();
+	
+		Parentinterface.statDisplay(); //calling static method in parent class 
 		cf.childMethod();
 		
 		System.out.println(cf.a);
@@ -15,6 +16,7 @@ public class ChildInterface implements Parentinterface {
 		 Parentinterface pf = new ChildInterface(); // using reference
 		 pf.defaultDisplay();
 		 pf.display();
+		 
 		 
 		 
 	}
